@@ -1,6 +1,6 @@
-**Wizer ASSESSMENT**
+**Usefinder ASSESSMENT**
 
-API for a Wizer Assessment
+API for a usefinder Assessment
 
 **PREREQUISITES**
 
@@ -26,11 +26,11 @@ step 1 - clone project with from [here](https://github.com/Chigozie100/wizer-ass
 
 git clone https://github.com/Chigozie100/wizer-assessement
 
-step 2 - move into the project directory cd wizerAssessment
+step 2 - move into the project directory cd usefinderAssessment
 
 step 3 - Generate the .jar file mvn clean install OR ./mvnw clean install
 
-step 4 - run the project java -jar wizer-assessment.jar
+step 4 - run the project java -jar usefinder-assessment.jar
 
 **Testing the API endpoints with various inputs**
 
@@ -181,25 +181,8 @@ step 4 - run the project java -jar wizer-assessment.jar
    "isbn": 4534
    }]
    Response Book successfully added
-8. Create List of Favorite Books Request [
-   {
-   "name": [
-   "avatar",
-   "the boss",
-   "vengers"
-   ]
-   }
-   ]
-Response [
-   {
-   "name": [
-   "avatar",
-   "the boss",
-   "vengers"
-   ]
-   }
-   ]
-9. Delete Book http://localhost:8080/api/v1/deleteBook/1
+   
+8. Delete Book http://localhost:8080/api/v1/deleteBook/1
    Response book deleted
    
 
